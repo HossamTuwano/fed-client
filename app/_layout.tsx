@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import 'expo-dev-client';
 import React from "react";
 import { Stack } from "expo-router";
 
