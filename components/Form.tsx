@@ -11,9 +11,7 @@ export default function Form() {
     formState: { errors },
   } = useForm({});
 
-  useEffect(
-    fetch("http://localhost:5257/feds").then((data) = )
-    , [])
+  useEffect(() => {}, []);
 
   async function addFed(data: object) {
     const response = await fetch("", {
